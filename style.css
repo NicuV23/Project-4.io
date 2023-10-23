@@ -102,8 +102,9 @@
 }
 .containers {
   background-color: hsl(210, 46%, 95%);
-  margin: 0;
-  padding: 0;
+  margin: 35px;
+  padding: 0px;
+  height: 50px;
 }
 
 .container5_cards .description {
@@ -116,7 +117,7 @@
 .container4,
 .container5 {
   padding: 10px;
-  margin: 12px;
+  margin: 15px;
   font-size: 17px;
   box-shadow: 3px 4px 5px hsl(0, 2%, 66%);
 }
@@ -133,31 +134,31 @@ body {
   background-color: hsl(210, 46%, 95%);
 }
 
-@media (min-width: 650px) {
-  .containers {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
+.containers {
+  display: flex;
+  align-items: end;
+}
 
-  @media (min-width: 1200px) {
-    .containers {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      max-width: 1350px;
-      margin: 50px auto;
-    }
+.left4 {
+  width: 117%;
+  display: flex;
+  flex-wrap: wrap;
+}
 
-    .container1.cards {
-      grid-column: 1/3;
-    }
+.top {
+  display: flex;
+  flex-direction: row;
+  margin-top: -16px;
+}
 
-    .container3.cards {
-      grid-column: 4;
-      grid-row: 1/4;
-    }
+.bottom {
+  display: flex;
+  flex-direction: row;
+}
 
-    .container4.cards {
-      grid-column: 2/4;
-    }
-  }
+.rightcolumn {
+  display: flex;
+  align-items: start;
+  width: 35%;
+  margin-bottom: 24px;
 }
