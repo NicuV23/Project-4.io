@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Outfit&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cards .image {
+  display: flex;
+  align-items: center;
+}
+
+.cards .image img {
+  border-radius: 50%;
+  margin-right: 15px;
+  border: solid 2px;
+  border-color: white;
+}
+
+.cards {
+  padding: 25px;
+}
+
+.container1 {
+  background-color: hsl(263, 55%, 52%);
+  border-radius: 15px;
+}
+
+.image h4 {
+  color: white;
+}
+
+.image small {
+  color: hsl(0, 0%, 81%);
+}
+
+.subtitle {
+  color: white;
+  font-size: 22px;
+  margin-top: 5px;
+  font-family: Barlow Semi Condensed, sans-serif;
+  position: relative;
+}
+
+.description {
+  color: hsl(0, 0%, 81%);
+  margin-top: 25px;
+  font-size: 15px;
+  font-family: Barlow Semi Condensed, sans-serif;
+  position: relative;
+}
+
+.quotes {
+  position: absolute;
+  right: 65px;
+}
+
+.container2 {
+  background-color: hsl(217, 19%, 35%);
+  border-radius: 15px;
+}
+
+.container3 {
+  background-color: white;
+  border-radius: 15px;
+}
+
+.container3 h4 {
+  color: black;
+}
+
+.container3 p {
+  color: hsl(0, 0%, 55%);
+}
+
+.container4 {
+  background-color: hsl(219, 29%, 14%);
+  border-radius: 15px;
+}
+
+.container4 .image img {
+  border: solid 3px;
+  border-color: hsl(263, 55%, 52%);
+}
+
+.container5 h4 {
+  color: black;
+}
+
+.container5 p {
+  color: hsl(0, 0%, 55%);
+}
+
+.containers {
+  background-color: hsl(210, 46%, 95%);
+}
+
+.container1,
+.container2,
+.container3,
+.container4,
+.container5 {
+  padding: 10px;
+  margin: 25px;
+}
